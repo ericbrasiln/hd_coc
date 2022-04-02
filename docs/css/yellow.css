@@ -1,0 +1,142 @@
+/*
+CSS for xaringan slides
+Author: Eric Brasil
+Updated: 2021-11-30
+*/
+
+.bg_green {
+  background-image: url(imagens/g2.jpg);
+  background-position: center;
+  background-size: 1220px;
+}
+
+.bg_yellow {
+  background-image: url(imagens/y2.jpg);
+  background-position: center;
+  background-size: 1220px;
+}
+
+/* slightly spacing change */
+.bg_green h1 {
+  color: #dab6c4;
+  line-height: 1.0em;
+  font-size: 50px;
+}
+
+.bg_green h2 {
+  color: #e1d89f;
+  line-height: 1.0em;
+  font-size: 40px;
+}
+
+.bg_green h3 {
+  color: #e1d89f;
+  line-height: 1.0em;
+  font-size: 30px;
+}
+
+/* slightly spacing change */
+.bg_yellow h1 {
+  color: #27474e;
+  line-height: 1.0em;
+  font-size: 50px;
+}
+
+.bg_yellow h2 {
+  color: #27474e;
+  line-height: 1.0em;
+  font-size: 40px;
+}
+
+.bg_yellow h3 {
+  color: #27474e;
+  line-height: 1.0em;
+  font-size: 30px;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+/* leave this alone */
+@page { margin: 0; }
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+/*~~~~~~~~~~~~~~*/
+/* RU additions */
+/*~~~~~~~~~~~~~~*/
+
+/* Title slide */
+
+/* Add image and change bg color */
+.title-slide {
+  background-image: url(imagens/y1.jpg);
+  background-position: center;
+  background-size: 1220px;
+  background-color: #fff;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+  margin: auto;
+}
+
+/* H1 fonts */
+.title-slide h1 {
+  color: #27474e;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: none;
+}
+
+/* H2 fonts */
+.title-slide h2 {
+  color: #27474e;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: none;
+}
+
+/* H3 fonts */
+.title-slide h3 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #27474e;
+  text-align: center;
+  text-shadow: none;
+  line-height: 1;
+}
+
+/*~~~~~~~~~~~~~~~~~~*/
+/* FINAL SLIDE      */
+/*~~~~~~~~~~~~~~~~~~*/
+
+.title-slide-final {
+  background-image: url(imagens/g1.jpg);
+  background-size: 1220px;
+  background-position: center;
+  text-align: center;
+}
+
+.title-slide-final h1 {
+  color: #dab6c4;
+  line-height: 1.0em;
+  font-size: 40px;
+}
+
+.title-slide-final h2, h3 {
+  color: #dab6c4;
+  line-height: 1.0em;
+  font-size: 30px;
+}

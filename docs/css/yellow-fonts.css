@@ -1,0 +1,45 @@
+/* Add maven for code font (keep other xaringan defaults */
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap);
+
+
+body {
+ font-family: 'Lexend Deca', sans-serif;  
+
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 120%;
+}
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: normal;
+  line-height: 100%;
+ margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+  line-height: 100%;
+ margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+
+}
+
+h3 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: normal;
+  line-height: 100%;
+ margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+
+}
+li, p {
+    line-height: 120%;
+}
+.remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
+.remark-code-line-highlighted     { background-color: #ffff88; }

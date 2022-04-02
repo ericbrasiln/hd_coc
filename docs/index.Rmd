@@ -1,0 +1,264 @@
+---
+title: "Versionamento, web scraping e construção de datasets"
+subtitle: "construindo metodologias digitais para pesquisa histórica"
+description: "Metodologias de pesquisa em humanidades digitais (PPGHCS/COC/FIOCRUZ"
+author: "<br>Eric Brasil (IHLM/UNILAB)<br>"
+date: "`r Sys.Date()`"
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["css/yellow.css", "css/yellow-fonts.css"]
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+editor_options: 
+  chunk_output_type: console
+---
+layout: true
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+	echo = FALSE,
+	fig.align = "center",
+	message = FALSE,
+	warning = FALSE,
+	cache = FALSE
+)
+```
+
+```{r eval=FALSE, include=FALSE}
+library(knitr)
+library(tidyverse)
+library(widgetframe)
+```
+---
+class: bg_green, center, middle
+
+# Como é que se começa um projeto em história?
+
+---
+class: bg_yellow, center, middle
+
+## Literacia Arquivística Digital
+
+---
+class: bg_yellow, center, middle
+
+### "A literacia arquivística digital requer a compreensão de como a produção de arquivos digitais se baseia em designs técnicos que influenciam a sua usabilidade. Isso significa que (todos) os historiadores precisam adquirir competência digital em um nível profissional paralelo às habilidades que temos em compreender como a classificação e categorização de fontes afetam nossa interação com arquivos analógicos e moldam nossas questões de pesquisa. (JENSEN, 2021, p. 6)"
+
+---
+class: bg_yellow, center, middle
+
+### a) categorias e etiquetas predefinidas;
+<br>
+
+--
+### b) pesquisa por campos e organização de resultados;
+<br>
+
+--
+### c) metadados.
+
+---
+class: bg_yellow, center, middle
+
+## Padrões de acesso online
+<br>
+
+### "Os métodos de pesquisa digital criam demandas novas e às vezes mais rigorosas de precisão, pensamento metodológico, auto-organização e colaboração do que a pesquisa histórica tradicional" (FRIDLUND; OIVA; PAJU, 2020, pos. 543).
+
+---
+class: bg_green, center, middle
+
+# Web Scraping
+
+---
+class: bg_yellow, center, middle
+
+## Aspectos técnicos e teóricos na construção de web scrapers
+<br>
+--
+
+### "A raspagem, dito de maneira bastante formal, é uma técnica importante para a coleta automatizada de dados online. É uma das práticas mais distintas associadas às formas atuais de pesquisa social digital, aquelas que são marcadas pelo surgimento da Internet e a nova onipresença dos dados digitais na vida social. Scrapers, para dizer de forma mais informal, são bits de código de software que possibilitam o download automático de dados da Web e a captura de algumas das grandes quantidades de dados sobre a vida social que estão disponíveis em plataformas online como Google, Twitter e Wikipédia". (MARRES; WELTEVREDE, 2013, p. 313)
+
+---
+class: bg_yellow, middle, center
+
+## Etapas do web scraping
+<br>
+
+--
+### análise da página Web  
+<br>
+
+--
+### rastreio ou raspagem da página Web 
+<br>
+
+--
+### organização dos dados
+
+---
+class: bg_yellow, middle, center
+
+## Problemas e limitações
+<br>
+
+--
+### instabilidade dos websites
+<br>
+
+--
+### limitado para uma página específica
+<br>
+
+--
+### curva de aprendizado elevada
+<br>
+
+---
+class: bg_yellow, middle, center
+
+## Mas é apenas uma técnica?
+<br>
+
+--
+### "também é uma prática de análise” (MARRES; WELTEVREDE, 2013, p. 317)
+<br>
+
+### "nossos ajudantes digitais já estão cheios de "teoria" e "julgamento". Como acontece com qualquer metodologia, eles contam com conjuntos de premissas, modelos e estratégias. A teoria já está trabalhando no nível mais básico quando se trata de definir unidades de análise, algoritmos e procedimentos de visualização" (RÖHLE; RIEDER, 2012, p. 70).
+
+---
+class: bg_green, middle, center
+
+## Repositório Digital das Humanidades (PT-BR)<br>REDHBR
+
+```{r, out.width="70%"}
+knitr::include_graphics("https://labhdufba.github.io/redhbr/img/logo.jpg")
+```
+
+[link](https://labhdufba.github.io/redhbr/)
+---
+class: bg_yellow, middle, center
+
+## Anais dos Simpósios da Anpuh
+<br>
+
+Link: [https://anpuh.org.br/index.php/documentos/anais](https://anpuh.org.br/index.php/documentos/anais)
+<br>
+
+### [Anais-Anpuh](https://github.com/ericbrasiln/Anais-Anpuh)
+
+---
+class: bg_yellow, middle, center
+
+## Scielo.br
+<br>
+
+Link: [https://www.scielo.br/](https://www.scielo.br/)
+<br>
+
+### [ferramentas_scielo_v2](https://github.com/LABHDUFBA/ferramentas_scielo_v2)
+
+---
+class: bg_green, middle, center
+
+# É apenas um acelerador?
+<br>
+---
+class: bg_yellow, middle, center
+
+### 1. Coleta, organização
+<br>
+--
+
+### 2. Produção de conjunto de dados que dialoguem com os interesses de pesquisa
+<br>
+
+--
+### 3. Transparência e registro metodológico
+<br>
+
+--
+### 4. Explicitas escolhas teóricas
+
+---
+class: bg_green, middle, center
+
+# Considerações finais: seremos todos programadores?
+
+---
+class: bg_yellow, middle, center
+
+## Eric Brasil
+<br>
+
+### Email: [profericbrasil@unilab.edu.br](mailto:profericbrasil@unilab.edu.br)
+
+### GitHub: [ericbrasiln](https://github.com/ericbrasiln/)
+
+### Twitter: [@ericbrasiln](http://www.twitter.com/ericbrailn) 
+
+### [Orcid](https://orcid.org/0000-0001-5067-8475) - [Lattes](http://lattes.cnpq.br/6853705640900524)
+
+### [Site pessoal](https://ericbrasiln.github.io)
+
+---
+class: bg_yellow, middle, center
+
+```{r, out.width="25%"}
+knitr::include_graphics("img/logo_hist.png")
+```
+
+## Curso de Licenciatura em História
+
+### Instituto de Humanidades e Letras do campus dos Malês, Unilab
+
+### [Site do curso](historia.males.unilab.edu.br/) 
+
+### email: [historia.ba@unilab.edu.br ](mailto:historia.ba@unilab.edu.br)
+
+```{r, out.width="22%"}
+knitr::include_graphics("img/logo_unilab.png")
+```
+
+---
+class: bg_yellow, middle, center
+
+```{r, out.width="20%"}
+knitr::include_graphics("img/logo_MA_color.png")
+```
+
+## Laboratório de Humanidades Digitais da UFBA
+
+### Twitter: [@labhdufba](https://twitter.com/labhdufba) 
+
+### Instagram: [@labhdufba](http://instagram.com/labhdufba)
+
+### Github: [https://github.com/LABHDUFBA](https://github.com/LABHDUFBA)
+
+---
+class: title-slide-final, middle, center
+
+# Obrigado, gente!
+
+.pull-left[
+```{r, out.width="90%"}
+knitr::include_graphics("https://media2.giphy.com/media/3o6wNIV9FP28JIleyk/giphy.gif?cid=ecf05e47zu5xdrqbq7ehu5dmzo76n6nqww430nqs4z5ppy8b&rid=giphy.gif&ct=g")
+```
+]
+.pull-right[
+<br>
+## Agradecimentos especiais:
+<br>
+
+### À organização do evento e coordenadores do simpósio pelo aceite, escuta e diálogo.
+]
+
