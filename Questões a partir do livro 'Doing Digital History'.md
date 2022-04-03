@@ -45,6 +45,7 @@ E as interfaces gráficas (GUI)?
 
 E os documentos digitalizados?
 
+- Como o processo de digitalização afeta sua pesquisa?
 - Acessados, lidos e trabalhados emulando práticas analógicas.
 - OCR, HTR.
 
