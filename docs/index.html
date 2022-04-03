@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Versionamento, web scraping e construção de datasets</title>
+    <title>Versionamento, web scraping e a construção de datasets</title>
     <meta charset="utf-8" />
     <meta name="author" content=" Eric Brasil (IHLM/UNILAB) " />
-    <meta name="date" content="2022-04-01" />
+    <meta name="date" content="2022-04-03" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="css/yellow.css" type="text/css" />
     <link rel="stylesheet" href="css/yellow-fonts.css" type="text/css" />
@@ -13,10 +13,10 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Versionamento, web scraping e construção de datasets
-## construindo metodologias digitais para pesquisa histórica
+# Versionamento,<br>web scraping e a construção de datasets
+## <br>metodologias digitais para pesquisa histórica
 ### <br>Eric Brasil (IHLM/UNILAB)<br>
-### 2022-04-01
+### 2022-04-03
 
 ---
 
@@ -33,6 +33,40 @@ class: bg_green, center, middle
 ---
 class: bg_yellow, center, middle
 
+### - Suas fontes são digitais ou digitalizadas?
+&lt;br&gt;
+
+--
+### - Você já possui ou criou uma versão legível por computador dos seus dados.
+&lt;br&gt;
+
+--
+### - Você já comprendeu "como suas fontes digitais foram criadas, e como ficaram disponíveis para você ( p. 44)
+
+---
+class: bg_yellow, center, middle
+
+## Compreender esse processo deve ser tarefa básica em nossa profissão.
+
+---
+class: bg_yellow, center, middle
+## E as interfaces gráficas (GUI)?
+&lt;br&gt;
+
+--
+### - Difícil avaliar precisamente o que você está pesquisando, acessando e  quais as escolhas técnicas e teóricas por trás dos resultados mostrados na tela.
+&lt;br&gt;
+
+--
+### - Quão representativos são no conjunto de dados?
+&lt;br&gt;
+
+--
+### - Elas restringem suas perguntas ou abrem possibilidades de novas?
+
+---
+class: bg_yellow, center, middle
+
 ## Literacia Arquivística Digital
 
 ---
@@ -43,28 +77,176 @@ class: bg_yellow, center, middle
 ---
 class: bg_yellow, center, middle
 
-### a) categorias e etiquetas predefinidas;
+## E os documentos digitalizados?
 &lt;br&gt;
 
 --
-### b) pesquisa por campos e organização de resultados;
+### - Como o processo de digitalização afeta sua pesquisa?
 &lt;br&gt;
 
 --
-### c) metadados.
+### - Acessados, lidos e trabalhados emulando práticas analógicas.
+&lt;br&gt;
+
+--
+### - OCR, HTR.
 
 ---
 class: bg_yellow, center, middle
 
-## Padrões de acesso online
+## Como coletar e organizar esses dados?
 &lt;br&gt;
+
+--
+### - CSV, JSON, XML, TEI, RDF
+&lt;br&gt;
+
+--
+### - PDF, JPG
+&lt;br&gt;
+
+--
+### - Como lidar com esses diferentes formatos?
+&lt;br&gt;
+
+--
+### - Metadados? Navegar, descobrir e organizar. Mas também um objeto em si mesmo (61)
+
+---
+class: bg_yellow, center, middle
 
 ### "Os métodos de pesquisa digital criam demandas novas e às vezes mais rigorosas de precisão, pensamento metodológico, auto-organização e colaboração do que a pesquisa histórica tradicional" (FRIDLUND; OIVA; PAJU, 2020, pos. 543).
 
 ---
 class: bg_green, center, middle
 
-# Web Scraping
+# Controle de versões como método de documentação da pesquisa
+
+---
+class: bg_yellow, center, middle
+
+## História Digital = Colaboração, abertura, compartilhamento
+
+---
+class: bg_yellow, center, middle
+
+## Como gerenciar seus dados e mantê-los seguros?
+&lt;br&gt;
+
+--
+### - metadata (como você descreve seus dados, tanto internamente quanto externamente)
+&lt;br&gt;
+
+--
+### - controle de versões (o que fazer se você fizer uma lambança no processo)
+&lt;br&gt;
+
+--
+### - documentação (uma descrição narrativa do projeto)
+&lt;br&gt;
+
+--
+### - preservação (como os dados podem ser mantidos para uso no futuro)
+
+---
+class: bg_yellow, left, middle
+## Você já fez isso?
+
+```
+trabalho_final.docx
+trabalho_final2.docx
+trabalho_final_final.docx
+trabalho_final_commentários_orientador.docx
+trabalho_final_corrigido.docx
+trabalho_final_versão_enviar.docx
+```
+
+---
+class: bg_yellow, center, middle
+
+## É fundamental criar um plano para organização, documentação, preservação e compartilhamento dos dados, métodos e resultados da pequisa.
+
+## Podemos enfrentar boa parte desses desafios utilizando git.
+
+&lt;small&gt;Veja essa lição de [James Backer sobre preservação dos dados de investigação](https://programminghistorian.org/pt/licoes/preservar-os-seus-dados-de-investigacao) para outras estratégias e referências.&lt;/small&gt;
+
+---
+class: bg_yellow, center, middle
+## O que é git?
+&lt;br&gt;
+
+--
+### *Version Control System*
+
+---
+class: bg_yellow, center, middle
+
+###	- Distribuído
+&lt;br&gt;
+
+--
+###	- Repositório Local
+&lt;br&gt;
+
+--
+### - Livre e gratuito
+
+---
+class: bg_yellow, center, middle
+
+## Vantagens
+&lt;br&gt;
+.pull-left[
+###	- Controle de histórico
+&lt;br&gt;
+
+###	- Trabalho em equipe
+&lt;br&gt;
+
+###	- Ramificações (Branches)
+&lt;br&gt;
+]
+.pull-right[
+###	- Segurança
+&lt;br&gt;
+
+###	- Organização
+&lt;br&gt;
+
+###	- integração com repositórios remotos (como o GitHub)
+]
+---
+class: bg_yellow, center, middle
+## Documentando o processo
+&lt;br&gt;
+
+--
+### - mensagens de commit 
+&lt;br&gt;
+
+--
+### - criação de README.md em cada pasta
+&lt;br&gt;
+
+--
+### - Encarar o processo de documentação como um processo público, mesmo que não seja publicado. 
+
+---
+class: bg_green, center, middle
+
+# Datasets para pesquisa em história
+
+---
+class: bg_yellow, center, middle
+### "Datasets são sempre configurados pelas circunstâncias contingentes de sua criação e curadoria". (71)
+&lt;br&gt;
+
+## É possível lidar com datasets prontos, mas por outro lado, ainda dependemos muito de fontes digitalizadas pouco estruturadas. Assim, temos poucos datasets de dados e metadados disponíveis.
+
+---
+class: bg_yellow, center, middle
+
+### Criar uma ferramenta para coletar dados da internet (web scraper) é um desafio, mas muitas vezes é um caminho fundamental para o desenvolvimento de pequisas de história digital = aplicar métodos mais sofisticados de análise e visuzliação do que apenas emular práticas analógicas.
 
 ---
 class: bg_yellow, center, middle
@@ -172,12 +354,29 @@ class: bg_yellow, middle, center
 &lt;br&gt;
 
 --
-### 4. Explicitas escolhas teóricas
+### 4. Explicita escolhas teóricas
 
 ---
 class: bg_green, middle, center
 
-# Considerações finais: seremos todos programadores?
+#Seremos todos programadores?
+
+---
+class: bg_yellow, middle, center
+
+### - O digital substituirá as ferramentas básicas da operação historiográfica?
+&lt;br&gt;
+
+--
+### - Como isso afeta a construção do conhecimento histórico?
+&lt;br&gt;
+
+--
+### - O digital substituirá as ferramentas básicas da operação historiográfica?
+&lt;br&gt;
+
+--
+### - Como isso afeta a construção do conhecimento histórico?
 
 ---
 class: bg_yellow, middle, center
