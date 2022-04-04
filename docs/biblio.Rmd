@@ -1,0 +1,34 @@
+---
+title: "Bibliografia para a aula no curso Metodologias de pesquisa em humanidades digitais (PPGHCS/COC/FIOCRUZ)"
+author: "Eric Brasil"
+date: '2022-04-04'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+- BLANEY, Jonathan; MILLGAN, Sarah; STEER, Martin; et al. *Doing digital history*: a beginner’s guide to working with text as data. Manchester: Manchester University Press, 2021. (IHR research guides).
+
+- BRASIL, Eric; NASCIMENTO, Leonardo Fernandes. História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica. *Revista Estudos Históricos*, v. 33, n. 69, p. 196–219, 2020.
+
+- FRIDLUND, Mats; OIVA, Mila; PAJU, Petri (Orgs.). *Digital Histories*: Emergent Approaches within the New Digital History. Helsinki: Helsinki University Press, 2020.
+
+- GALLOWAY, Alexander R. *The Interface Effect*. Cambridge: Polity, 2012.
+
+- HITCHCOCK, Tim. Confronting the Digital: Or How Academic History Writing Lost the Plot. *Cultural and Social History*, v. 10, n. 1, p. 9–23, 2013.
+
+- JENSEN, Helle Strandgaard. Digital Archival Literacy for (all) Historians. *Media History*, v. 27, n. 2, p. 251–265, 2021.
+
+- MARRES, Noortje; WELTEVREDE, Esther. Scraping the Social? *Journal of Cultural Economy*, v. 6, n. 3, p. 313–335, 2013.
+
+- PFANZELTER, Eva; OBERBICHLER, Sarah; MARJANEN, Jani; et al. Digital interfaces of historical newspapers: opportunities, restrictions and recommendations. *Journal of Data Mining and Digital Humanities*, 2020.
+
+- PUTNAM, Lara. The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast. *The American Historical Review*, v. 121, n. 2, p. 377–402, 2016.
+
+- RÖHLE, Bernhard Rieder Theo; RIEDER, Bernhard. Digital Methods: Five Challenges. In: BERRY, David M. (Org.). *Understanding Digital Humanities*. London: Palgrave Macmillan UK, 2012, p. 67–84.
+
+- ROMEIN, C. Annemieke; KEMMAN, Max; BIRKHOLZ, Julie M.; et al. State of the Field: Digital History. *History*, v. 105, n. 365, p. 291–312, 2020.
+
+- SALMI, Hannu. *What is Digital History?* 1ª edição. Cambridge: Polity, 2020. (What is History? Series).
