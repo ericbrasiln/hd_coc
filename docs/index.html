@@ -50,22 +50,6 @@ class: bg_yellow, center, middle
 
 ---
 class: bg_yellow, center, middle
-## E as interfaces gráficas (GUI)?
-&lt;br&gt;
-
---
-### - Difícil avaliar precisamente o que você está pesquisando, acessando e  quais as escolhas técnicas e teóricas por trás dos resultados mostrados na tela.
-&lt;br&gt;
-
---
-### - Quão representativos são no conjunto de dados?
-&lt;br&gt;
-
---
-### - Elas restringem suas perguntas ou abrem possibilidades de novas?
-
----
-class: bg_yellow, center, middle
 
 ## Literacia Arquivística Digital
 
@@ -85,11 +69,27 @@ class: bg_yellow, center, middle
 &lt;br&gt;
 
 --
-### - Acessados, lidos e trabalhados emulando práticas analógicas.
+### - Acessados, lidos e trabalhados emulando práticas analógicas?
 &lt;br&gt;
 
 --
 ### - OCR, HTR.
+
+---
+class: bg_yellow, center, middle
+## E as interfaces gráficas (GUI)?
+&lt;br&gt;
+
+--
+### - Difícil avaliar precisamente o que você está pesquisando, acessando e  quais as escolhas técnicas e teóricas por trás dos resultados mostrados na tela.
+&lt;br&gt;
+
+--
+### - Quão representativos são no conjunto de dados?
+&lt;br&gt;
+
+--
+### - Elas restringem suas perguntas ou abrem possibilidades de novas?
 
 ---
 class: bg_yellow, center, middle
@@ -120,7 +120,20 @@ class: bg_yellow, center, middle
 ---
 class: bg_green, center, middle
 
-# Controle de versões como método de documentação da pesquisa
+# Dois exemplos de ferramentas digitais
+&lt;br&gt;
+.pull-left[
+## Versionamento com Git
+]
+.pull-right[
+## Criando datasets com a `pyHDB`
+]
+
+---
+class: bg_green, center, middle
+
+# Git
+## Controle de versões como método de documentação da pesquisa
 
 ---
 class: bg_yellow, center, middle
@@ -149,17 +162,21 @@ class: bg_yellow, center, middle
 ### - preservação (como os dados podem ser mantidos para uso no futuro)
 
 ---
-class: bg_yellow, left, middle
+class: bg_yellow, center, middle
 ## Você já fez isso?
+&lt;br&gt;
+.pull-left[
 
-```
-trabalho_final.docx
-trabalho_final2.docx
-trabalho_final_final.docx
-trabalho_final_commentários_orientador.docx
-trabalho_final_corrigido.docx
-trabalho_final_versão_enviar.docx
-```
+### - trabalho_final.docx
+### - trabalho_final2.docx
+### - trabalho_final_final.docx
+]
+.pull-right[
+
+### - trabalho_final_revisão.docx
+### - trabalho_final_corrigido.docx
+### - trabalho_final_ok_enviar.docx
+]
 
 ---
 class: bg_yellow, center, middle
@@ -213,7 +230,7 @@ class: bg_yellow, center, middle
 ###	- Organização
 &lt;br&gt;
 
-###	- integração com repositórios remotos (como o GitHub)
+###	- Integração com repositórios remotos (como o GitHub)
 ]
 ---
 class: bg_yellow, center, middle
@@ -234,19 +251,19 @@ class: bg_yellow, center, middle
 ---
 class: bg_green, center, middle
 
-# Datasets para pesquisa em história
+# Datasets para pesquisa em história com a ferramenta pyHDB
 
 ---
 class: bg_yellow, center, middle
 ### "Datasets são sempre configurados pelas circunstâncias contingentes de sua criação e curadoria". (71)
 &lt;br&gt;
 
-## É possível lidar com datasets prontos, mas por outro lado, ainda dependemos muito de fontes digitalizadas pouco estruturadas. Assim, temos poucos datasets de dados e metadados disponíveis.
+### É possível lidar com datasets prontos, mas por outro lado, ainda dependemos muito de fontes digitalizadas pouco estruturadas. Assim, temos poucos datasets de dados e metadados disponíveis.
 
 ---
 class: bg_yellow, center, middle
 
-### Criar uma ferramenta para coletar dados da internet (web scraper) é um desafio, mas muitas vezes é um caminho fundamental para o desenvolvimento de pequisas de história digital = aplicar métodos mais sofisticados de análise e visuzliação do que apenas emular práticas analógicas.
+### Criar uma ferramenta para coletar dados da internet (web scraper) é um desafio, mas muitas vezes é um caminho importante para o desenvolvimento de pequisas de história digital que nos possibilite aplicar métodos mais sofisticados de análise e visualização.
 
 ---
 class: bg_yellow, center, middle
@@ -265,6 +282,10 @@ class: bg_yellow, middle, center
 
 --
 ### análise da página Web  
+&lt;br&gt;
+
+--
+### questões éticas e legais
 &lt;br&gt;
 
 --
@@ -307,38 +328,106 @@ class: bg_yellow, middle, center
 ---
 class: bg_green, middle, center
 
-## Repositório Digital das Humanidades (PT-BR)&lt;br&gt;REDHBR
-
-&lt;img src="https://labhdufba.github.io/redhbr/img/logo.jpg" width="70%" style="display: block; margin: auto;" /&gt;
-
-[link](https://labhdufba.github.io/redhbr/)
----
-class: bg_yellow, middle, center
-
-## Anais dos Simpósios da Anpuh
-&lt;br&gt;
-
-Link: [https://anpuh.org.br/index.php/documentos/anais](https://anpuh.org.br/index.php/documentos/anais)
-&lt;br&gt;
-
-### [Anais-Anpuh](https://github.com/ericbrasiln/Anais-Anpuh)
+# Criando um dataset a partir do acervo da Hemeroteca Digital da Biblioteca Nacional (HDB)
 
 ---
 class: bg_yellow, middle, center
 
-## Scielo.br
+## Difusão da HDB nas pesquisas em história
+&lt;br&gt;
+--
+
+### Acesso aos periódicos remotamente 
+&lt;br&gt;
+--
+
+### Salvar imagens
+&lt;br&gt;
+--
+
+### Busca por palavras
 &lt;br&gt;
 
-Link: [https://www.scielo.br/](https://www.scielo.br/)
+---
+class: bg_yellow, middle, center
+
+## Mas e as citações?
 &lt;br&gt;
 
-### [ferramentas_scielo_v2](https://github.com/LABHDUFBA/ferramentas_scielo_v2)
+--
+### Sem padrão e sem transparência  
+
+---
+class: bg_yellow, middle, center
+
+## O caso dos papers da Anpuh
+&lt;br&gt;
+
+### Pesquisa realizada por Ana Carolina Veloso, bolsista PIBIC / FAPESB.
+
+### Para mais informações [clique aqui](https://ericbrasiln.github.io/pibic_2020-2021/hdb/)
+
+---
+class: bg_yellow, middle, center
+
+## Papers publicados nos Anais dos SNH da Anpuh com ocorrências dos termos vínculados à HDB por evento
+
+&lt;img src="https://github.com/ericbrasiln/Historia_Digital_BN/blob/main/docs/img/newplot(2).png?raw=true" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+class: bg_yellow, middle, center
+
+## Padrões de utilização dos termos vínculados à HDB nas citações encontradas
+
+&lt;img src="https://github.com/ericbrasiln/Historia_Digital_BN/blob/main/docs/img/newplot(1).png?raw=true" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+class: bg_yellow, middle, center
+
+## Interface da HDB e seus impactos epistemológicos
+&lt;br&gt;
+
+--
+### Parâmetros de busca 
+&lt;br&gt;
+
+--
+### Padrão de resultados
+&lt;br&gt;
+
+--
+### OCR, XML, Metadados?
+&lt;br&gt;
+
+---
+class: bg_green, middle, center
+
+&lt;img src="https://raw.githubusercontent.com/ericbrasiln/pyHDB/main/img/1.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+[Acesso o repostório da ferramenta no GitHub](https://github.com/ericbrasiln/pyHDB)
+
+---
+class: bg_yellow, middle, center
+
+## CSV
+
+&lt;img src="https://ericbrasiln.github.io/hdrio21/assests/2021-04-13_00-36_csv1.png" width="80%" style="display: block; margin: auto;" /&gt;
+---
+class: bg_yellow, middle, center
+
+### Registro de procedimentos metodológicos 
+&lt;br&gt;
+--
+
+### Potencial de pesquisas com técnicas de DH
+&lt;br&gt;
 
 ---
 class: bg_green, middle, center
 
 # É apenas um acelerador?
 &lt;br&gt;
+
 ---
 class: bg_yellow, middle, center
 
@@ -435,7 +524,7 @@ class: title-slide-final, middle, center
 ## Agradecimentos especiais:
 &lt;br&gt;
 
-### À organização do evento e coordenadores do simpósio pelo aceite, escuta e diálogo.
+### À Daiane e Fábio pelo convite e aos discentes pela escuta e debate.
 ]
 
     </textarea>
